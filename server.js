@@ -39,5 +39,5 @@ app.get('/sharing/:filename', (req, res) => {
 });
 
 app.listen(app.get('port'), () => {
-    console.log(`[ OK ] :: Server is running on localhost:${port}`)
+    console.log(`[ OK ] :: Server is running on port ${port}!`)
 })
